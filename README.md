@@ -1,9 +1,6 @@
-# Full walkthrough on Vimeo
+# Full walkthrough on Vimeo in the link below:
 
-<iframe src="https://player.vimeo.com/video/467154343" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-<p><a href="https://vimeo.com/467154343">DSC Session 3: Flexbox, Bootstrap, Reusing HTML</a> from <a href="https://vimeo.com/user123965706">Derrick Zhen</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-
-[![IMAGE ALT TEXT](https://miro.medium.com/max/5992/1*gaN7h99jHpTAP1ba3AWKng.png)](https://player.vimeo.com/video/467154343)
+https://vimeo.com/467154343
 
 To get started with this repository simply click the green button that says "Code" and then click "Download ZIP"
 
