@@ -1,0 +1,29 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@500&display=swap'); */
+
+body{
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* important to clear */
+  margin: 0;
+}
+
+.headingText{
+  font-size: 50px;
+}
+
+.bioDiv{
+  background: white;
+  text-align: center;
+  margin: 2% auto;
+  border-radius: 40px;
+  max-width: 60vw;
+  padding: 2%;
+  border: 2px solid #888888;
+  box-shadow: 5px 10px #000;
+}
+
+.aboutMe{
+  font-size: 25px;
+}
+
+
