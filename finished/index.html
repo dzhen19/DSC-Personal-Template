@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<!-- ^ the viewport meta tag is to make your webpage responsive according to screen size -->
+	<title>Derrick's Page</title>
+	<!-- ^ your webpage's title -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"crossorigin="anonymous">
+	<!-- ^ where we link our font awesome file to our webpage (this allows us to import social icons!) -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<!-- ^ importing bootstrap, a popular CSS library-->
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<!-- ^ where we link our CSS file to our webpage -->
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+		<a class="navbar-brand" href="/">
+			<i class="fa fa-home" style="font-size:40px"></i>	
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarText">
+		  <ul class="navbar-nav mr-auto">
+			<li class="nav-item">
+			  <a class="nav-link" href="./resume.html">Resume</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="https://medium.com/@dzhen001">Blog</a>
+			</li>
+		  </ul>
+		  <span class="navbar-text">
+			Navbar text with an inline element
+		  </span>
+		</div>
+	  </nav>
+
+	<div class="jumbotron">
+		<h1 class="display-4">Hello, world!</h1>
+		<img src="./assets/placeholder.png" width = "20%">
+		<p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+		<hr class="my-4">
+
+		<div class="tray">
+			<a href="https://linkedin.com">
+				<i class="fa fa-linkedin"></i>
+			</a>
+			<a href="https://instagram.com">
+				<i class="fa fa-instagram"></i>
+			</a>
+			<a href="mailto:dzhen001@gmail.com">
+				<i class="fa fa-envelope"></i>
+			</a>
+		</div>
+
+		<p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+		<p class="lead">
+		  <a class="btn btn-dark btn-md" href="#" role="button">Learn more</a>
+		</p>
+	  </div>
+
+
+	<div style="min-height:500px"></div>
+	<script src="script.js"></script>	
+  </body>
+</html>

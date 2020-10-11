@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@500&display=swap');
+
+body{
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* important to clear */
+  margin: 0;
+}
+
+.headingText{
+  font-size: 50px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.bioDiv{
+  background: white;
+  text-align: center;
+  margin: 2% auto;
+  border-radius: 40px;
+  max-width: 60vw;
+  padding: 2%;
+  border: 2px solid #888888;
+  box-shadow: 5px 10px #000;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.aboutMe{
+  font-size: 25px;
+}
+
+
+.navbar{
+  background:white;
+  border-bottom: solid black;
+  position:sticky;
+  display:flex;
+  justify-content: flex-end;
+  min-height:50px;
+  width:100%;
+}
+
+
+.navitem{
+  height:100%;
+}
+
+.logo{
+  margin-right:auto;
+}
+
+
+.jumbotron{
+  text-align:center;
+  padding: 5% 20%;
+}
+
+.tray{
+  font-size:32px;
+  display:flex;
+  justify-content:space-between;
+  max-width:20%;
+  margin:auto;
+  margin-bottom:15px;
+}
+
+a{
+  color:#343A40;
+}
+
+a:hover{
+  color:hotpink;
+}
